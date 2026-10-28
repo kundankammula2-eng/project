@@ -1,0 +1,25 @@
+algorithm,removed,mean,std
+Greedy Modularity,0.0,1.0,0.0
+Greedy Modularity,0.1,0.6158,0.0637
+Greedy Modularity,0.2,0.5558,0.0596
+Greedy Modularity,0.3,0.5506,0.0476
+Greedy Modularity,0.4,0.4982,0.0539
+Greedy Modularity,0.5,0.4354,0.0382
+Label Propagation,0.0,0.7692,0.0262
+Label Propagation,0.1,0.7206,0.0719
+Label Propagation,0.2,0.7206,0.0293
+Label Propagation,0.3,0.6825,0.0307
+Label Propagation,0.4,0.6322,0.0178
+Label Propagation,0.5,0.6364,0.0096
+Louvain,0.0,0.9285,0.0244
+Louvain,0.1,0.8618,0.0418
+Louvain,0.2,0.8053,0.0427
+Louvain,0.3,0.7506,0.0324
+Louvain,0.4,0.6271,0.0588
+Louvain,0.5,0.5237,0.0401
+Spectral,0.0,0.9853,0.0073
+Spectral,0.1,0.9332,0.0252
+Spectral,0.2,0.8717,0.0269
+Spectral,0.3,0.7953,0.0357
+Spectral,0.4,0.6786,0.0516
+Spectral,0.5,0.5513,0.0289

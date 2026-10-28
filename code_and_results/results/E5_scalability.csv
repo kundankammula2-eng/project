@@ -1,0 +1,24 @@
+n,m,algorithm,time_s,modularity
+200,1133,Louvain,0.0172,0.6197
+200,1133,Greedy Modularity,0.0603,0.6197
+200,1133,Label Propagation,0.0043,0.5833
+200,1133,Spectral,0.0888,0.6197
+500,2884,Louvain,0.0318,0.7687
+500,2884,Greedy Modularity,0.2004,0.728
+500,2884,Label Propagation,0.0132,0.7687
+500,2884,Spectral,0.0999,0.7687
+1000,5857,Louvain,0.0599,0.8181
+1000,5857,Greedy Modularity,0.5774,0.7791
+1000,5857,Label Propagation,0.0201,0.8181
+1000,5857,Spectral,0.1259,0.7656
+2000,11415,Louvain,0.1344,0.847
+2000,11415,Greedy Modularity,1.2125,0.8171
+2000,11415,Label Propagation,0.0395,0.841
+2000,11415,Spectral,0.2766,0.7481
+4000,23245,Louvain,0.341,0.8554
+4000,23245,Greedy Modularity,2.398,0.8363
+4000,23245,Label Propagation,0.1188,0.8513
+4000,23245,Spectral,0.4599,0.7344
+8000,46052,Louvain,0.6027,0.8648
+8000,46052,Greedy Modularity,4.8083,0.8592
+8000,46052,Label Propagation,0.2372,0.8604

@@ -1,0 +1,1136 @@
+{
+ "karate_truth_modularity": 0.3582,
+ "karate": [
+  {
+   "algorithm": "Louvain",
+   "n_communities": 4,
+   "modularity": 0.4198,
+   "coverage": 0.7308,
+   "performance": 0.8039,
+   "conductance": 0.2875,
+   "nmi": 0.5878,
+   "ari": 0.4646,
+   "time_s": 0.0379
+  },
+  {
+   "algorithm": "Greedy Modularity",
+   "n_communities": 3,
+   "modularity": 0.3807,
+   "coverage": 0.7564,
+   "performance": 0.7148,
+   "conductance": 0.2808,
+   "nmi": 0.5646,
+   "ari": 0.5684,
+   "time_s": 0.003
+  },
+  {
+   "algorithm": "Label Propagation",
+   "n_communities": 4,
+   "modularity": 0.4033,
+   "coverage": 0.7564,
+   "performance": 0.7683,
+   "conductance": 0.297,
+   "nmi": 0.5056,
+   "ari": 0.4588,
+   "time_s": 0.0008
+  },
+  {
+   "algorithm": "Spectral",
+   "n_communities": 4,
+   "modularity": 0.4198,
+   "coverage": 0.7308,
+   "performance": 0.8039,
+   "conductance": 0.2875,
+   "nmi": 0.5878,
+   "ari": 0.4646,
+   "time_s": 0.0858
+  },
+  {
+   "algorithm": "Girvan-Newman",
+   "n_communities": 5,
+   "modularity": 0.4013,
+   "coverage": 0.6923,
+   "performance": 0.8111,
+   "conductance": 0.4535,
+   "nmi": 0.4851,
+   "ari": 0.3916,
+   "time_s": 0.0711
+  }
+ ],
+ "karate_graph": {
+  "nodes": 34,
+  "edges": 78,
+  "density": 0.139,
+  "avg_clustering": 0.5706,
+  "diameter": 5,
+  "avg_path": 2.408
+ },
+ "lesmis": {
+  "nodes": 77,
+  "edges": 254,
+  "n_communities": 6,
+  "modularity": 0.5667,
+  "communities": [
+   {
+    "community": 1,
+    "size": 22,
+    "top_characters": "Valjean, Marius, Cosette, Javert, Gillenormand"
+   },
+   {
+    "community": 2,
+    "size": 17,
+    "top_characters": "Enjolras, Courfeyrac, Combeferre, Bossuet, Gavroche"
+   },
+   {
+    "community": 3,
+    "size": 11,
+    "top_characters": "Fantine, Tholomyes, Favourite, Dahlia, Blacheville"
+   },
+   {
+    "community": 4,
+    "size": 11,
+    "top_characters": "Thenardier, MmeThenardier, Babet, Gueulemer, Claquesous"
+   },
+   {
+    "community": 5,
+    "size": 10,
+    "top_characters": "Myriel, MmeMagloire, MlleBaptistine, Count, Champtercier"
+   },
+   {
+    "community": 6,
+    "size": 6,
+    "top_characters": "Champmathieu, Judge, Bamatabois, Brevet, Cochepaille"
+   }
+  ]
+ },
+ "robustness": [
+  {
+   "algorithm": "Greedy Modularity",
+   "mu": 0.1,
+   "nmi_mean": 0.9774,
+   "nmi_std": 0.0087,
+   "ari_mean": 0.972,
+   "n_found": 10.4,
+   "n_planted": 10.4
+  },
+  {
+   "algorithm": "Greedy Modularity",
+   "mu": 0.2,
+   "nmi_mean": 0.7365,
+   "nmi_std": 0.0505,
+   "ari_mean": 0.5842,
+   "n_found": 7.0,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Greedy Modularity",
+   "mu": 0.3,
+   "nmi_mean": 0.6282,
+   "nmi_std": 0.0897,
+   "ari_mean": 0.4672,
+   "n_found": 6.4,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Greedy Modularity",
+   "mu": 0.4,
+   "nmi_mean": 0.3181,
+   "nmi_std": 0.0271,
+   "ari_mean": 0.1911,
+   "n_found": 7.2,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Greedy Modularity",
+   "mu": 0.5,
+   "nmi_mean": 0.1462,
+   "nmi_std": 0.0491,
+   "ari_mean": 0.052,
+   "n_found": 7.8,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Greedy Modularity",
+   "mu": 0.6,
+   "nmi_mean": 0.0884,
+   "nmi_std": 0.0144,
+   "ari_mean": 0.0104,
+   "n_found": 7.6,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Greedy Modularity",
+   "mu": 0.7,
+   "nmi_mean": 0.0698,
+   "nmi_std": 0.0161,
+   "ari_mean": 0.0062,
+   "n_found": 7.4,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Greedy Modularity",
+   "mu": 0.8,
+   "nmi_mean": 0.0583,
+   "nmi_std": 0.0161,
+   "ari_mean": -0.0024,
+   "n_found": 7.6,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Label Propagation",
+   "mu": 0.1,
+   "nmi_mean": 0.9618,
+   "nmi_std": 0.0253,
+   "ari_mean": 0.9178,
+   "n_found": 12.8,
+   "n_planted": 10.4
+  },
+  {
+   "algorithm": "Label Propagation",
+   "mu": 0.2,
+   "nmi_mean": 0.841,
+   "nmi_std": 0.0637,
+   "ari_mean": 0.7286,
+   "n_found": 13.6,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Label Propagation",
+   "mu": 0.3,
+   "nmi_mean": 0.4686,
+   "nmi_std": 0.3474,
+   "ari_mean": 0.3248,
+   "n_found": 10.4,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Label Propagation",
+   "mu": 0.4,
+   "nmi_mean": 0.0,
+   "nmi_std": 0.0,
+   "ari_mean": 0.0,
+   "n_found": 1.0,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Label Propagation",
+   "mu": 0.5,
+   "nmi_mean": 0.0,
+   "nmi_std": 0.0,
+   "ari_mean": 0.0,
+   "n_found": 1.0,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Label Propagation",
+   "mu": 0.6,
+   "nmi_mean": 0.0,
+   "nmi_std": 0.0,
+   "ari_mean": 0.0,
+   "n_found": 1.0,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Label Propagation",
+   "mu": 0.7,
+   "nmi_mean": 0.0,
+   "nmi_std": 0.0,
+   "ari_mean": 0.0,
+   "n_found": 1.0,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Label Propagation",
+   "mu": 0.8,
+   "nmi_mean": 0.0,
+   "nmi_std": 0.0,
+   "ari_mean": 0.0,
+   "n_found": 1.0,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Louvain",
+   "mu": 0.1,
+   "nmi_mean": 0.9973,
+   "nmi_std": 0.0037,
+   "ari_mean": 0.9964,
+   "n_found": 10.4,
+   "n_planted": 10.4
+  },
+  {
+   "algorithm": "Louvain",
+   "mu": 0.2,
+   "nmi_mean": 0.9465,
+   "nmi_std": 0.0255,
+   "ari_mean": 0.9248,
+   "n_found": 9.8,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Louvain",
+   "mu": 0.3,
+   "nmi_mean": 0.8202,
+   "nmi_std": 0.0494,
+   "ari_mean": 0.766,
+   "n_found": 10.0,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Louvain",
+   "mu": 0.4,
+   "nmi_mean": 0.3956,
+   "nmi_std": 0.0375,
+   "ari_mean": 0.2687,
+   "n_found": 8.0,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Louvain",
+   "mu": 0.5,
+   "nmi_mean": 0.1709,
+   "nmi_std": 0.0367,
+   "ari_mean": 0.064,
+   "n_found": 9.0,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Louvain",
+   "mu": 0.6,
+   "nmi_mean": 0.1342,
+   "nmi_std": 0.0245,
+   "ari_mean": 0.0343,
+   "n_found": 9.0,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Louvain",
+   "mu": 0.7,
+   "nmi_mean": 0.0947,
+   "nmi_std": 0.014,
+   "ari_mean": 0.0076,
+   "n_found": 9.6,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Louvain",
+   "mu": 0.8,
+   "nmi_mean": 0.0705,
+   "nmi_std": 0.0128,
+   "ari_mean": -0.0012,
+   "n_found": 9.0,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Spectral",
+   "mu": 0.1,
+   "nmi_mean": 0.98,
+   "nmi_std": 0.0305,
+   "ari_mean": 0.9462,
+   "n_found": 9.8,
+   "n_planted": 10.4
+  },
+  {
+   "algorithm": "Spectral",
+   "mu": 0.2,
+   "nmi_mean": 0.9396,
+   "nmi_std": 0.0249,
+   "ari_mean": 0.9122,
+   "n_found": 9.6,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Spectral",
+   "mu": 0.3,
+   "nmi_mean": 0.853,
+   "nmi_std": 0.0465,
+   "ari_mean": 0.8093,
+   "n_found": 9.8,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Spectral",
+   "mu": 0.4,
+   "nmi_mean": 0.4266,
+   "nmi_std": 0.0569,
+   "ari_mean": 0.2942,
+   "n_found": 8.4,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Spectral",
+   "mu": 0.5,
+   "nmi_mean": 0.1429,
+   "nmi_std": 0.0267,
+   "ari_mean": 0.0591,
+   "n_found": 6.8,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Spectral",
+   "mu": 0.6,
+   "nmi_mean": 0.0913,
+   "nmi_std": 0.031,
+   "ari_mean": 0.0155,
+   "n_found": 7.6,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Spectral",
+   "mu": 0.7,
+   "nmi_mean": 0.0669,
+   "nmi_std": 0.0257,
+   "ari_mean": 0.0027,
+   "n_found": 7.4,
+   "n_planted": 10.0
+  },
+  {
+   "algorithm": "Spectral",
+   "mu": 0.8,
+   "nmi_mean": 0.0604,
+   "nmi_std": 0.0139,
+   "ari_mean": -0.0009,
+   "n_found": 7.6,
+   "n_planted": 10.0
+  }
+ ],
+ "stability": [
+  {
+   "algorithm": "Greedy Modularity",
+   "removed": 0.0,
+   "mean": 1.0,
+   "std": 0.0
+  },
+  {
+   "algorithm": "Greedy Modularity",
+   "removed": 0.1,
+   "mean": 0.6158,
+   "std": 0.0637
+  },
+  {
+   "algorithm": "Greedy Modularity",
+   "removed": 0.2,
+   "mean": 0.5558,
+   "std": 0.0596
+  },
+  {
+   "algorithm": "Greedy Modularity",
+   "removed": 0.3,
+   "mean": 0.5506,
+   "std": 0.0476
+  },
+  {
+   "algorithm": "Greedy Modularity",
+   "removed": 0.4,
+   "mean": 0.4982,
+   "std": 0.0539
+  },
+  {
+   "algorithm": "Greedy Modularity",
+   "removed": 0.5,
+   "mean": 0.4354,
+   "std": 0.0382
+  },
+  {
+   "algorithm": "Label Propagation",
+   "removed": 0.0,
+   "mean": 0.7692,
+   "std": 0.0262
+  },
+  {
+   "algorithm": "Label Propagation",
+   "removed": 0.1,
+   "mean": 0.7206,
+   "std": 0.0719
+  },
+  {
+   "algorithm": "Label Propagation",
+   "removed": 0.2,
+   "mean": 0.7206,
+   "std": 0.0293
+  },
+  {
+   "algorithm": "Label Propagation",
+   "removed": 0.3,
+   "mean": 0.6825,
+   "std": 0.0307
+  },
+  {
+   "algorithm": "Label Propagation",
+   "removed": 0.4,
+   "mean": 0.6322,
+   "std": 0.0178
+  },
+  {
+   "algorithm": "Label Propagation",
+   "removed": 0.5,
+   "mean": 0.6364,
+   "std": 0.0096
+  },
+  {
+   "algorithm": "Louvain",
+   "removed": 0.0,
+   "mean": 0.9285,
+   "std": 0.0244
+  },
+  {
+   "algorithm": "Louvain",
+   "removed": 0.1,
+   "mean": 0.8618,
+   "std": 0.0418
+  },
+  {
+   "algorithm": "Louvain",
+   "removed": 0.2,
+   "mean": 0.8053,
+   "std": 0.0427
+  },
+  {
+   "algorithm": "Louvain",
+   "removed": 0.3,
+   "mean": 0.7506,
+   "std": 0.0324
+  },
+  {
+   "algorithm": "Louvain",
+   "removed": 0.4,
+   "mean": 0.6271,
+   "std": 0.0588
+  },
+  {
+   "algorithm": "Louvain",
+   "removed": 0.5,
+   "mean": 0.5237,
+   "std": 0.0401
+  },
+  {
+   "algorithm": "Spectral",
+   "removed": 0.0,
+   "mean": 0.9853,
+   "std": 0.0073
+  },
+  {
+   "algorithm": "Spectral",
+   "removed": 0.1,
+   "mean": 0.9332,
+   "std": 0.0252
+  },
+  {
+   "algorithm": "Spectral",
+   "removed": 0.2,
+   "mean": 0.8717,
+   "std": 0.0269
+  },
+  {
+   "algorithm": "Spectral",
+   "removed": 0.3,
+   "mean": 0.7953,
+   "std": 0.0357
+  },
+  {
+   "algorithm": "Spectral",
+   "removed": 0.4,
+   "mean": 0.6786,
+   "std": 0.0516
+  },
+  {
+   "algorithm": "Spectral",
+   "removed": 0.5,
+   "mean": 0.5513,
+   "std": 0.0289
+  }
+ ],
+ "scalability": [
+  {
+   "n": 200,
+   "m": 1133,
+   "algorithm": "Louvain",
+   "time_s": 0.0172,
+   "modularity": 0.6197
+  },
+  {
+   "n": 200,
+   "m": 1133,
+   "algorithm": "Greedy Modularity",
+   "time_s": 0.0603,
+   "modularity": 0.6197
+  },
+  {
+   "n": 200,
+   "m": 1133,
+   "algorithm": "Label Propagation",
+   "time_s": 0.0043,
+   "modularity": 0.5833
+  },
+  {
+   "n": 200,
+   "m": 1133,
+   "algorithm": "Spectral",
+   "time_s": 0.0888,
+   "modularity": 0.6197
+  },
+  {
+   "n": 500,
+   "m": 2884,
+   "algorithm": "Louvain",
+   "time_s": 0.0318,
+   "modularity": 0.7687
+  },
+  {
+   "n": 500,
+   "m": 2884,
+   "algorithm": "Greedy Modularity",
+   "time_s": 0.2004,
+   "modularity": 0.728
+  },
+  {
+   "n": 500,
+   "m": 2884,
+   "algorithm": "Label Propagation",
+   "time_s": 0.0132,
+   "modularity": 0.7687
+  },
+  {
+   "n": 500,
+   "m": 2884,
+   "algorithm": "Spectral",
+   "time_s": 0.0999,
+   "modularity": 0.7687
+  },
+  {
+   "n": 1000,
+   "m": 5857,
+   "algorithm": "Louvain",
+   "time_s": 0.0599,
+   "modularity": 0.8181
+  },
+  {
+   "n": 1000,
+   "m": 5857,
+   "algorithm": "Greedy Modularity",
+   "time_s": 0.5774,
+   "modularity": 0.7791
+  },
+  {
+   "n": 1000,
+   "m": 5857,
+   "algorithm": "Label Propagation",
+   "time_s": 0.0201,
+   "modularity": 0.8181
+  },
+  {
+   "n": 1000,
+   "m": 5857,
+   "algorithm": "Spectral",
+   "time_s": 0.1259,
+   "modularity": 0.7656
+  },
+  {
+   "n": 2000,
+   "m": 11415,
+   "algorithm": "Louvain",
+   "time_s": 0.1344,
+   "modularity": 0.847
+  },
+  {
+   "n": 2000,
+   "m": 11415,
+   "algorithm": "Greedy Modularity",
+   "time_s": 1.2125,
+   "modularity": 0.8171
+  },
+  {
+   "n": 2000,
+   "m": 11415,
+   "algorithm": "Label Propagation",
+   "time_s": 0.0395,
+   "modularity": 0.841
+  },
+  {
+   "n": 2000,
+   "m": 11415,
+   "algorithm": "Spectral",
+   "time_s": 0.2766,
+   "modularity": 0.7481
+  },
+  {
+   "n": 4000,
+   "m": 23245,
+   "algorithm": "Louvain",
+   "time_s": 0.341,
+   "modularity": 0.8554
+  },
+  {
+   "n": 4000,
+   "m": 23245,
+   "algorithm": "Greedy Modularity",
+   "time_s": 2.398,
+   "modularity": 0.8363
+  },
+  {
+   "n": 4000,
+   "m": 23245,
+   "algorithm": "Label Propagation",
+   "time_s": 0.1188,
+   "modularity": 0.8513
+  },
+  {
+   "n": 4000,
+   "m": 23245,
+   "algorithm": "Spectral",
+   "time_s": 0.4599,
+   "modularity": 0.7344
+  },
+  {
+   "n": 8000,
+   "m": 46052,
+   "algorithm": "Louvain",
+   "time_s": 0.6027,
+   "modularity": 0.8648
+  },
+  {
+   "n": 8000,
+   "m": 46052,
+   "algorithm": "Greedy Modularity",
+   "time_s": 4.8083,
+   "modularity": 0.8592
+  },
+  {
+   "n": 8000,
+   "m": 46052,
+   "algorithm": "Label Propagation",
+   "time_s": 0.2372,
+   "modularity": 0.8604
+  }
+ ],
+ "roles": [
+  {
+   "node": 0,
+   "degree": 0.4848,
+   "closeness": 0.569,
+   "betweenness": 0.4376,
+   "eigenvector": 0.3555,
+   "pagerank": 0.097,
+   "z_within": 2.1357,
+   "participation": 0.5391,
+   "community": 1,
+   "role": "Connector hub"
+  },
+  {
+   "node": 1,
+   "degree": 0.2727,
+   "closeness": 0.4853,
+   "betweenness": 0.0539,
+   "eigenvector": 0.266,
+   "pagerank": 0.0529,
+   "z_within": 1.4016,
+   "participation": 0.1975,
+   "community": 1,
+   "role": "Peripheral (some external links)"
+  },
+  {
+   "node": 2,
+   "degree": 0.303,
+   "closeness": 0.5593,
+   "betweenness": 0.1437,
+   "eigenvector": 0.3172,
+   "pagerank": 0.0571,
+   "z_within": 0.3003,
+   "participation": 0.62,
+   "community": 1,
+   "role": "Connector (bridge)"
+  },
+  {
+   "node": 3,
+   "degree": 0.1818,
+   "closeness": 0.4648,
+   "betweenness": 0.0119,
+   "eigenvector": 0.2112,
+   "pagerank": 0.0359,
+   "z_within": 0.6674,
+   "participation": 0.0,
+   "community": 1,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 4,
+   "degree": 0.0909,
+   "closeness": 0.3793,
+   "betweenness": 0.0006,
+   "eigenvector": 0.076,
+   "pagerank": 0.022,
+   "z_within": -0.8165,
+   "participation": 0.4444,
+   "community": 2,
+   "role": "Connector (bridge)"
+  },
+  {
+   "node": 5,
+   "degree": 0.1212,
+   "closeness": 0.3837,
+   "betweenness": 0.03,
+   "eigenvector": 0.0795,
+   "pagerank": 0.0291,
+   "z_within": 1.2247,
+   "participation": 0.375,
+   "community": 2,
+   "role": "Peripheral (some external links)"
+  },
+  {
+   "node": 6,
+   "degree": 0.1212,
+   "closeness": 0.3837,
+   "betweenness": 0.03,
+   "eigenvector": 0.0795,
+   "pagerank": 0.0291,
+   "z_within": 1.2247,
+   "participation": 0.375,
+   "community": 2,
+   "role": "Peripheral (some external links)"
+  },
+  {
+   "node": 7,
+   "degree": 0.1212,
+   "closeness": 0.44,
+   "betweenness": 0.0,
+   "eigenvector": 0.171,
+   "pagerank": 0.0245,
+   "z_within": -0.0667,
+   "participation": 0.0,
+   "community": 1,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 8,
+   "degree": 0.1515,
+   "closeness": 0.5156,
+   "betweenness": 0.0559,
+   "eigenvector": 0.2274,
+   "pagerank": 0.0298,
+   "z_within": -0.1674,
+   "participation": 0.48,
+   "community": 4,
+   "role": "Connector (bridge)"
+  },
+  {
+   "node": 9,
+   "degree": 0.0606,
+   "closeness": 0.4342,
+   "betweenness": 0.0008,
+   "eigenvector": 0.1027,
+   "pagerank": 0.0143,
+   "z_within": -0.8372,
+   "participation": 0.5,
+   "community": 4,
+   "role": "Connector (bridge)"
+  },
+  {
+   "node": 10,
+   "degree": 0.0909,
+   "closeness": 0.3793,
+   "betweenness": 0.0006,
+   "eigenvector": 0.076,
+   "pagerank": 0.022,
+   "z_within": -0.8165,
+   "participation": 0.4444,
+   "community": 2,
+   "role": "Connector (bridge)"
+  },
+  {
+   "node": 11,
+   "degree": 0.0303,
+   "closeness": 0.3667,
+   "betweenness": 0.0,
+   "eigenvector": 0.0529,
+   "pagerank": 0.0096,
+   "z_within": -1.168,
+   "participation": 0.0,
+   "community": 1,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 12,
+   "degree": 0.0606,
+   "closeness": 0.3708,
+   "betweenness": 0.0,
+   "eigenvector": 0.0843,
+   "pagerank": 0.0146,
+   "z_within": -0.8009,
+   "participation": 0.0,
+   "community": 1,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 13,
+   "degree": 0.1515,
+   "closeness": 0.5156,
+   "betweenness": 0.0459,
+   "eigenvector": 0.2265,
+   "pagerank": 0.0295,
+   "z_within": -0.0667,
+   "participation": 0.32,
+   "community": 1,
+   "role": "Peripheral (some external links)"
+  },
+  {
+   "node": 14,
+   "degree": 0.0606,
+   "closeness": 0.3708,
+   "betweenness": 0.0,
+   "eigenvector": 0.1014,
+   "pagerank": 0.0145,
+   "z_within": -0.5023,
+   "participation": 0.0,
+   "community": 4,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 15,
+   "degree": 0.0606,
+   "closeness": 0.3708,
+   "betweenness": 0.0,
+   "eigenvector": 0.1014,
+   "pagerank": 0.0145,
+   "z_within": -0.5023,
+   "participation": 0.0,
+   "community": 4,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 16,
+   "degree": 0.0606,
+   "closeness": 0.2845,
+   "betweenness": 0.0,
+   "eigenvector": 0.0236,
+   "pagerank": 0.0168,
+   "z_within": -0.8165,
+   "participation": 0.0,
+   "community": 2,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 17,
+   "degree": 0.0606,
+   "closeness": 0.375,
+   "betweenness": 0.0,
+   "eigenvector": 0.0924,
+   "pagerank": 0.0146,
+   "z_within": -0.8009,
+   "participation": 0.0,
+   "community": 1,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 18,
+   "degree": 0.0606,
+   "closeness": 0.3708,
+   "betweenness": 0.0,
+   "eigenvector": 0.1014,
+   "pagerank": 0.0145,
+   "z_within": -0.5023,
+   "participation": 0.0,
+   "community": 4,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 19,
+   "degree": 0.0909,
+   "closeness": 0.5,
+   "betweenness": 0.0325,
+   "eigenvector": 0.1479,
+   "pagerank": 0.0196,
+   "z_within": -0.8009,
+   "participation": 0.4444,
+   "community": 1,
+   "role": "Connector (bridge)"
+  },
+  {
+   "node": 20,
+   "degree": 0.0606,
+   "closeness": 0.3708,
+   "betweenness": 0.0,
+   "eigenvector": 0.1014,
+   "pagerank": 0.0145,
+   "z_within": -0.5023,
+   "participation": 0.0,
+   "community": 4,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 21,
+   "degree": 0.0606,
+   "closeness": 0.375,
+   "betweenness": 0.0,
+   "eigenvector": 0.0924,
+   "pagerank": 0.0146,
+   "z_within": -0.8009,
+   "participation": 0.0,
+   "community": 1,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 22,
+   "degree": 0.0606,
+   "closeness": 0.3708,
+   "betweenness": 0.0,
+   "eigenvector": 0.1014,
+   "pagerank": 0.0145,
+   "z_within": -0.5023,
+   "participation": 0.0,
+   "community": 4,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 23,
+   "degree": 0.1515,
+   "closeness": 0.3929,
+   "betweenness": 0.0176,
+   "eigenvector": 0.1501,
+   "pagerank": 0.0315,
+   "z_within": -0.4472,
+   "participation": 0.48,
+   "community": 3,
+   "role": "Connector (bridge)"
+  },
+  {
+   "node": 24,
+   "degree": 0.0909,
+   "closeness": 0.375,
+   "betweenness": 0.0022,
+   "eigenvector": 0.0571,
+   "pagerank": 0.0211,
+   "z_within": 0.8944,
+   "participation": 0.0,
+   "community": 3,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 25,
+   "degree": 0.0909,
+   "closeness": 0.375,
+   "betweenness": 0.0038,
+   "eigenvector": 0.0592,
+   "pagerank": 0.021,
+   "z_within": 0.8944,
+   "participation": 0.0,
+   "community": 3,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 26,
+   "degree": 0.0606,
+   "closeness": 0.3626,
+   "betweenness": 0.0,
+   "eigenvector": 0.0756,
+   "pagerank": 0.015,
+   "z_within": -0.5023,
+   "participation": 0.0,
+   "community": 4,
+   "role": "Peripheral (internal only)"
+  },
+  {
+   "node": 27,
+   "degree": 0.1212,
+   "closeness": 0.4583,
+   "betweenness": 0.0223,
+   "eigenvector": 0.1335,
+   "pagerank": 0.0256,
+   "z_within": -0.4472,
+   "participation": 0.625,
+   "community": 3,
+   "role": "Connector (bridge)"
+  },
+  {
+   "node": 28,
+   "degree": 0.0909,
+   "closeness": 0.4521,
+   "betweenness": 0.0018,
+   "eigenvector": 0.1311,
+   "pagerank": 0.0196,
+   "z_within": -1.7889,
+   "participation": 0.6667,
+   "community": 3,
+   "role": "Connector (bridge)"
+  },
+  {
+   "node": 29,
+   "degree": 0.1212,
+   "closeness": 0.3837,
+   "betweenness": 0.0029,
+   "eigenvector": 0.135,
+   "pagerank": 0.0263,
+   "z_within": -0.1674,
+   "participation": 0.375,
+   "community": 4,
+   "role": "Peripheral (some external links)"
+  },
+  {
+   "node": 30,
+   "degree": 0.1212,
+   "closeness": 0.4583,
+   "betweenness": 0.0144,
+   "eigenvector": 0.1748,
+   "pagerank": 0.0246,
+   "z_within": -0.1674,
+   "participation": 0.375,
+   "community": 4,
+   "role": "Peripheral (some external links)"
+  },
+  {
+   "node": 31,
+   "degree": 0.1818,
+   "closeness": 0.541,
+   "betweenness": 0.1383,
+   "eigenvector": 0.191,
+   "pagerank": 0.0372,
+   "z_within": 0.8944,
+   "participation": 0.6111,
+   "community": 3,
+   "role": "Connector (bridge)"
+  },
+  {
+   "node": 32,
+   "degree": 0.3636,
+   "closeness": 0.5156,
+   "betweenness": 0.1452,
+   "eigenvector": 0.3087,
+   "pagerank": 0.0717,
+   "z_within": 1.8419,
+   "participation": 0.4028,
+   "community": 4,
+   "role": "Connector (bridge)"
+  },
+  {
+   "node": 33,
+   "degree": 0.5152,
+   "closeness": 0.55,
+   "betweenness": 0.3041,
+   "eigenvector": 0.3734,
+   "pagerank": 0.1009,
+   "z_within": 2.5117,
+   "participation": 0.5121,
+   "community": 4,
+   "role": "Connector hub"
+  }
+ ],
+ "role_counts": {
+  "Peripheral (internal only)": 15,
+  "Connector (bridge)": 11,
+  "Peripheral (some external links)": 6,
+  "Connector hub": 2
+ },
+ "spearman_p_vs_betw": 0.73,
+ "null_model": {
+  "Karate club": {
+   "Q_real": 0.4198,
+   "Q_null_mean": 0.3027,
+   "Q_null_std": 0.0168,
+   "z_score": 6.99
+  },
+  "Les Miserables": {
+   "Q_real": 0.5312,
+   "Q_null_mean": 0.2866,
+   "Q_null_std": 0.0081,
+   "z_score": 30.27
+  }
+ }
+}

@@ -1,0 +1,63 @@
+
+[E1] Karate club -- algorithm comparison
+                   n_communities  modularity  coverage  performance  conductance    nmi    ari  time_s
+algorithm                                                                                             
+Louvain                        4       0.420     0.731        0.804        0.288  0.588  0.465   0.038
+Greedy Modularity              3       0.381     0.756        0.715        0.281  0.565  0.568   0.003
+Label Propagation              4       0.403     0.756        0.768        0.297  0.506  0.459   0.001
+Spectral                       4       0.420     0.731        0.804        0.288  0.588  0.465   0.086
+Girvan-Newman                  5       0.401     0.692        0.811        0.454  0.485  0.392   0.071
+modularity of the real 2-way club split = 0.3582
+
+[E2] Les Miserables -- interpretable communities (weighted Louvain)
+ community  size                                           top_characters
+         1    22           Valjean, Marius, Cosette, Javert, Gillenormand
+         2    17      Enjolras, Courfeyrac, Combeferre, Bossuet, Gavroche
+         3    11       Fantine, Tholomyes, Favourite, Dahlia, Blacheville
+         4    11  Thenardier, MmeThenardier, Babet, Gueulemer, Claquesous
+         5    10 Myriel, MmeMagloire, MlleBaptistine, Count, Champtercier
+         6     6     Champmathieu, Judge, Bamatabois, Brevet, Cochepaille
+weighted modularity = 0.5667
+
+[E3] LFR robustness: NMI vs mixing parameter mu
+  mu=0.1 done
+  mu=0.2 done
+  mu=0.3 done
+  mu=0.4 done
+  mu=0.5 done
+  mu=0.6 done
+  mu=0.7 done
+  mu=0.8 done
+
+[E4] Stability under random edge removal
+
+[E5] Scalability on planted-partition graphs
+  n=200 done
+  n=500 done
+  n=1000 done
+  n=2000 done
+  n=4000 done
+  n=8000 done
+
+[E6] Centrality and community-aware node roles (karate club)
+      degree  closeness  betweenness  eigenvector  pagerank  z_within  participation  community                              role
+node                                                                                                                             
+0      0.485      0.569        0.438        0.355     0.097     2.136          0.539          1                     Connector hub
+33     0.515      0.550        0.304        0.373     0.101     2.512          0.512          4                     Connector hub
+32     0.364      0.516        0.145        0.309     0.072     1.842          0.403          4                Connector (bridge)
+2      0.303      0.559        0.144        0.317     0.057     0.300          0.620          1                Connector (bridge)
+31     0.182      0.541        0.138        0.191     0.037     0.894          0.611          3                Connector (bridge)
+8      0.152      0.516        0.056        0.227     0.030    -0.167          0.480          4                Connector (bridge)
+1      0.273      0.485        0.054        0.266     0.053     1.402          0.198          1  Peripheral (some external links)
+13     0.152      0.516        0.046        0.226     0.030    -0.067          0.320          1  Peripheral (some external links)
+role
+Peripheral (internal only)          15
+Connector (bridge)                  11
+Peripheral (some external links)     6
+Connector hub                        2
+
+[E7] Significance: real Q vs degree-preserving random graphs
+  Karate club: {'Q_real': 0.4198, 'Q_null_mean': 0.3027, 'Q_null_std': 0.0168, 'z_score': 6.99}
+  Les Miserables: {'Q_real': 0.5312, 'Q_null_mean': 0.2866, 'Q_null_std': 0.0081, 'z_score': 30.27}
+
+All experiments finished in 32s. Outputs are in ./results/
