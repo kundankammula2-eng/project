@@ -1,8 +1,16 @@
 """
-main.py  --  runs every experiment of the Community Detection project.
+main.py -- Execution Pipeline for Community Detection Benchmarking
+Author: Kundan Kammula
+Course: Project 4 - Network Science & Complex Systems
 
-    python3 main.py                              # all built-in experiments
-    python3 main.py --edgelist facebook_combined.txt   # + analysis of a SNAP dataset
+Executes experiments E1 through E7:
+  - E1: Zachary's Karate Club Ground-Truth Validation
+  - E2: Semantic Community Detection on Les Misérables
+  - E3: Noise Robustness under LFR Benchmark (Mixing Parameter Sweep)
+  - E4: Stability against Missing Edges (Random Deletion)
+  - E5: Computational Scalability (200 to 8,000 Nodes)
+  - E6: Cartographic Node-Role & Centrality Correlation Analysis
+  - E7: Statistical Significance Testing against Degree-Preserving Null Models
 """
 import argparse
 import json

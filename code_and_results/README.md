@@ -1,8 +1,8 @@
-# Community Detection in Social Networks
+# Comparative Study of Community Detection Algorithms in Complex Networks
+**Author:** Kundan Kammula  
+**Project:** Network Science & Graph Analytics — Project 4
 
-Comparative study of five community detection algorithms (Louvain, Greedy Modularity,
-Label Propagation, Spectral Clustering, Girvan-Newman) with extra analyses that go beyond
-a plain "run the algorithm" project:
+This repository contains a comprehensive empirical evaluation of five core community detection algorithms (Louvain, Greedy Modularity, Label Propagation, Spectral Clustering, and Girvan-Newman) evaluated across real-world social networks and synthetic benchmark topologies.
 
 | ID | Experiment | Question answered |
 |----|-----------|-------------------|

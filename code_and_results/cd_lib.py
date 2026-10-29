@@ -1,11 +1,14 @@
 """
-cd_lib.py  --  core library for the Community Detection project.
+cd_lib.py -- Core Library for Community Detection Analysis
+Author: Kundan Kammula
+Course: Project 4 - Network Science & Complex Systems
 
-Contains
-  * dataset loaders / synthetic benchmark generators
-  * six community detection algorithms behind one common interface
-  * evaluation metrics (internal + external)
-  * node-role analysis (within-module z-score and participation coefficient)
+Provides:
+  * Dataset loaders and benchmark network generators (LFR, SBM)
+  * Implementations & wrappers for 5 community detection algorithms
+  * Quantitative validation metrics (Modularity, Conductance, NMI, ARI)
+  * Cartographic node-role analysis (Within-module z-score & Participation coefficient)
+  * Degree-preserving randomized null model generation
 """
 import time
 from collections import defaultdict
